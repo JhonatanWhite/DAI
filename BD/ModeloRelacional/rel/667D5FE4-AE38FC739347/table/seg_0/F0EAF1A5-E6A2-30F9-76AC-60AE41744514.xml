@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0EAF1A5-E6A2-30F9-76AC-60AE41744514" name="Marca">
+<createdBy>duoc</createdBy>
+<createdTime>2017-05-04 19:33:54 UTC</createdTime>
+<generatorID>6996E055-B13C-D4ED-238D-2C1F232274EA</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdMarca" id="1D5B6422-E6C1-5D69-E923-746D933099AA">
+<createdBy>duoc</createdBy>
+<createdTime>2017-05-04 19:33:54 UTC</createdTime>
+<generatorID>94F40293-9A94-1F81-A527-78436303BFAC</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="BCE15195-ABC8-C30F-519B-13D3FD08D099">
+<createdBy>duoc</createdBy>
+<createdTime>2017-05-04 19:33:54 UTC</createdTime>
+<generatorID>34DB2113-1762-780A-7A82-6B877251D2E0</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modelo" id="5C7DE27E-EF24-8615-ED50-ADA9F8E36D84">
+<createdBy>duoc</createdBy>
+<createdTime>2017-05-04 19:33:54 UTC</createdTime>
+<generatorID>D10F5498-B616-1177-F25A-5281C9657E05</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SO" id="488E0093-CF37-2CA9-574C-0EC6276CE92E">
+<createdBy>duoc</createdBy>
+<createdTime>2017-05-04 19:33:54 UTC</createdTime>
+<generatorID>74DCC053-D7D1-680C-5C23-35216944768D</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EFE092F-6CFB-BA66-9D08-95BEDD1D9F8B" name="Marca_PK">
+<createdBy>duoc</createdBy>
+<createdTime>2017-05-04 19:33:54 UTC</createdTime>
+<generatorID>B965236F-E871-B8B1-8379-5E3B54C0B6E3</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D5B6422-E6C1-5D69-E923-746D933099AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

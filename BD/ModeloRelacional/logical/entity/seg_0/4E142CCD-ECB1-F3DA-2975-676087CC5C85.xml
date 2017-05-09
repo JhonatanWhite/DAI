@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E142CCD-ECB1-F3DA-2975-676087CC5C85" name="Categoria">
+<createdBy>duoc</createdBy>
+<createdTime>2017-05-04 19:09:56 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="667D5FE4-C831-BFD7-E3AB-AE38FC739347" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdCategoria" id="37F1C6BB-09AB-9CBC-CD7B-71DCCEC27B57">
+<createdBy>duoc</createdBy>
+<createdTime>2017-05-04 19:30:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="667D5FE4-C831-BFD7-E3AB-AE38FC739347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="BBF11F93-A0DD-5BFE-278B-50193522930A">
+<createdBy>duoc</createdBy>
+<createdTime>2017-05-04 19:31:05 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="667D5FE4-C831-BFD7-E3AB-AE38FC739347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F900E238-30DF-F170-E16D-F6852D158686" name="Categoria PK">
+<createdBy>duoc</createdBy>
+<createdTime>2017-05-04 19:31:02 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="667D5FE4-C831-BFD7-E3AB-AE38FC739347" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37F1C6BB-09AB-9CBC-CD7B-71DCCEC27B57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
